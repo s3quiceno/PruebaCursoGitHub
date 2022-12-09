@@ -1,3 +1,24 @@
+
+header{
+    width: 70%;
+    margin: 0 auto;
+    padding: 0px 0px 2px 0px;
+    border-radius: 10px;
+    /*Propiedades para la sombra de los elementos*/
+    -webkit-box-shadow: 10px 13px 10px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    10px 13px 10px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         10px 13px 10px 0px rgba(50, 50, 50, 0.75);
+
+    /*Configuracion del gradiente*/
+    background: rgb(30, 50, 230);
+    background: -moz-linear-gradient(325deg, rgb(182, 10, 216) 22%, rgb(218, 129, 230) 67%);
+    background: -webkit-linear-gradient(325deg, rgb(182, 10, 216) 22%, rgb(218, 129, 230) 67%);
+    background: -o-linear-gradient(325deg, rgb(182, 10, 216) 22%, rgb(218, 129, 230) 67%);
+    background: -ms-linear-gradient(325deg, rgb(182, 10, 216) 22%, rgb(218, 129, 230) 67%);
+    background: linear-gradient(55deg, rgb(182, 10, 216) 22%, rgb(218, 129, 230) 67%);
+
+}
+
 .contenedor {
     width: 70%;
     margin: 20px auto;
