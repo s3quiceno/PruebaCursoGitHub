@@ -19,3 +19,10 @@ p {
 img {
     width: 100%;
 }
+.foot {
+    width: 70%;
+    margin: 20px auto;
+    text-align: center;
+    background-color: rgb(186, 143, 226);
+    border-radius: 9px;
+}
